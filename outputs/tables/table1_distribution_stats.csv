@@ -1,0 +1,15 @@
+PK Parameter,Unit,Partition,N,Min,Max,Mean,Median
+Half-life (t1/2),h,Development,695,0.16,3960.0,35.4,9.0
+Half-life (t1/2),h,Test,215,0.4,3312.0,47.45,8.2
+Volume of distribution (Vd),L,Development,540,3.5,20000.0,712.11,130.0
+Volume of distribution (Vd),L,Test,172,6.3,8542.0,365.67,111.75
+Clearance (CL),L/h,Development,523,0.03,1000.0,41.95,17.1
+Clearance (CL),L/h,Test,166,0.14,534.0,28.05,14.6
+Bioavailability (F),%,Development,343,0.63,100.0,61.11,64.0
+Bioavailability (F),%,Test,102,0.1,100.0,58.01,69.5
+Plasma protein binding (PPB),%,Development,618,0.0,99.9,72.58,90.0
+Plasma protein binding (PPB),%,Test,193,0.0,99.9,74.85,92.0
+Peak concentration (Cmax),µM,Development,420,0.0,1320.0,28.11,1.37
+Peak concentration (Cmax),µM,Test,136,0.001,682.0,26.52,1.56
+Time to peak (Tmax),h,Development,378,0.05,19.0,2.82,2.0
+Time to peak (Tmax),h,Test,134,0.45,10.0,2.65,2.0

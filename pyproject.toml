@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipknet"
+version = "0.1.0"
+description = "Physiology-Informed GNN for PK Prediction"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=2.0.0",
+    "torch-geometric",
+    "rdkit",
+    "pandas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "tqdm"
+]
+
+[project.optional-dependencies]
+# extras for regenerating manuscript figures/tables (the `reproduce` package)
+repro = ["matplotlib", "seaborn"]
+test = ["pytest"]
+
+[project.scripts]
+pipknet = "pipknet.cli:main"
+
+[tool.setuptools]
+packages = ["pipknet"]  # installs the core package only (ignores data/analysis dirs)

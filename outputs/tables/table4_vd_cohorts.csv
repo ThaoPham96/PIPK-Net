@@ -1,0 +1,7 @@
+Cohort,Benchmark,n,Obs mean Vd (L),PIPK-Net mean (L),Bench mean (L),PIPK-Net AAFE,Bench AAFE,PIPK-Net %2FE,Bench %2FE,dAAFE (PIPK-bench),dAAFE 95% CI,Wilcoxon p,Favours PIPK-Net
+Low Vd (<50 L),Chemprop,45,25.1,105.2,117.1,3.21,4.45,31.1,17.8,-1.233,"(-2.05, -0.45)",0.0064,True
+Low Vd (<50 L),ChemBERTa,45,25.1,105.2,83.0,3.21,3.09,31.1,28.9,0.119,"(-0.52, +0.78)",0.5683,False
+Medium-High Vd (300-2000 L),Chemprop,39,801.1,514.4,289.0,2.81,3.75,43.6,25.6,-0.945,"(-1.82, -0.15)",0.0197,True
+Medium-High Vd (300-2000 L),ChemBERTa,39,801.1,514.4,160.8,2.81,6.25,43.6,7.7,-3.443,"(-4.87, -2.33)",0.0,True
+Extreme Vd (>2000 L),Chemprop,4,4927.5,307.8,337.2,20.57,19.26,0.0,0.0,1.306,n.s. (n<5),,
+Extreme Vd (>2000 L),ChemBERTa,4,4927.5,307.8,278.0,20.57,23.68,0.0,0.0,-3.111,n.s. (n<5),,

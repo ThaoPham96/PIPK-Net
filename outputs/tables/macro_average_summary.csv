@@ -1,0 +1,4 @@
+Metric,ChemBERTa,Chemprop,PIPK-Net,ChemLLM,Notes
+AAFE,3.281,3.253,3.195,,ChemLLM AAFE excluded: zero-prediction clipping (see Table S4 footnote)
+Pearson_r,0.361,0.401,0.365,0.112,
+Spearman_rho,0.33,0.372,0.37,0.096,

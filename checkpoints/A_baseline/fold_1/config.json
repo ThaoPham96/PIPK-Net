@@ -1,0 +1,13 @@
+{
+  "variant": "A_baseline",
+  "best_hp": {
+    "hidden_dim": 96,
+    "dropout": 0.1,
+    "ion_emb_dim": 0,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "lambda_cons": 0.0,
+    "batch_size": 128
+  },
+  "outer_fold": 1
+}

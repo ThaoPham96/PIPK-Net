@@ -1,0 +1,8 @@
+Hyperparameter,Ensemble 1,Ensemble 2,Ensemble 3,Ensemble 4,Ensemble 5
+hidden_dim,96.0,128.0,96.0,96.0,128.0
+dropout,0.1,0.1,0.1,0.1,0.1
+ion_emb_dim,0.0,0.0,0.0,0.0,0.0
+lr,0.001,0.0005,0.001,0.001,0.001
+weight_decay,0.0001,0.0003,0.0003,0.0003,0.0001
+lambda_cons,0.0,0.0,0.0,0.0,0.0
+batch_size,128.0,128.0,128.0,128.0,128.0

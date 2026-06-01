@@ -1,0 +1,5 @@
+ID,Drug,Clinical_Vd_Lkg,Clinical_range_Lkg,Clinical_range_source,ADMET_AI_Lkg,DeepPK_Lkg
+1,PENICILLIN V,0.37,0.30-0.35,DrugBank,0.00,0.36
+2,LOSARTAN,0.42,0.4-0.5,Lankford et al. 1997,10.75,1.05
+3,SECOBARBITAL,1.35,,,3.96,1.01
+4,VENLAFAXINE,6.76,4.4-7.5,Lloret-Linares et al. 2017,1.95,3.74

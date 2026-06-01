@@ -1,0 +1,13 @@
+{
+  "variant": "B_ion",
+  "best_hp": {
+    "hidden_dim": 128,
+    "dropout": 0.2,
+    "ion_emb_dim": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "lambda_cons": 0.0,
+    "batch_size": 128
+  },
+  "outer_fold": 1
+}

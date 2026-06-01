@@ -1,0 +1,13 @@
+{
+  "variant": "C_physio",
+  "best_hp": {
+    "hidden_dim": 128,
+    "dropout": 0.1,
+    "ion_emb_dim": 16,
+    "lr": 0.0005,
+    "weight_decay": 0.0003,
+    "lambda_cons": 0.2,
+    "batch_size": 128
+  },
+  "outer_fold": 2
+}
