@@ -9,6 +9,14 @@ Accurate systemic PK prediction is often challenging due to the complexity of ab
 
 ---
 
+## Overview
+
+![PIPK-Net overview: scaffold-split dataset, nested cross-validation workflow, and the physiology-informed graph neural network architecture](docs/overview.png)
+
+*PIPK-Net at a glance.* ***(A)*** *Dataset characterisation — example Bemis–Murcko scaffolds with their drugs, the Tanimoto-similarity distribution between the nested-CV and independent-test sets, the physicochemical (molecular weight vs. LogP) space, and the seven matched PK-target distributions.* ***(B)*** *Workflow — 1,167 oral drugs are partitioned by scaffold into a 904-drug nested-cross-validation set (5-fold outer ensemble with a 5-fold inner hyperparameter search) and a 263-drug independent test set, yielding a 5-model PIPK-Net ensemble whose seven PK predictions are averaged.* ***(C)*** *Architecture — a graph convolutional encoder with global mean pooling produces a structural embedding ($h^{struct}$) that is concatenated with a learnable ionisation embedding ($h^{ion}$) and decoded by an MLP, trained with a masked weighted MSE loss (weight 5 for $V_d$ and $CL$, 1 otherwise) plus a physiology-informed mass-balance constraint $\mathcal{L}_{const}=(\log t_{1/2}-[\log(\ln 2)+\log V_d-\log CL])^2$.*
+
+---
+
 ## Project Structure
 * `pipknet/`: Core package — architecture (`models.py`), featurisers, training engine, nested-CV `training.py`, CSV loader `data.py`, high-level `inference.py` (`PIPKNetPredictor`), and CLI.
 * `examples/`: `tutorial.ipynb` walkthrough and `quickstart.py`.
