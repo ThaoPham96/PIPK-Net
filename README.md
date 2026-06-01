@@ -5,7 +5,7 @@ PIPK-Net is a deep learning framework designed to address the parameterisation n
 
 Accurate systemic PK prediction is often challenging due to the complexity of absorption, distribution, and elimination. PIPK-Net addresses this by integrating two novel components:
 1. **Learnable Ionisation Embeddings:** Rather than treating ionisation as a fixed descriptor, the model encodes physiological state at pH 7.4 as a learnable embedding, capturing how charge influences drug fate (e.g., albumin binding for anions vs. tissue accumulation for cations).
-2. **Mechanistic Loss Constraints:** The architecture embeds a mass-balance constraint ($t_{1/2} = \ln 2 \cdot V_d / CL$) directly into the training objective, ensuring that interdependent parameters remain consistent—a property often lacking in purely data-driven models.
+2. **Mechanistic Loss Constraints:** The architecture embeds a mass-balance constraint (t<sub>1/2</sub> = ln 2 &middot; V<sub>d</sub> / CL) directly into the training objective, ensuring that interdependent parameters remain consistent—a property often lacking in purely data-driven models.
 
 ---
 
