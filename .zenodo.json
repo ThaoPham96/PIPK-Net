@@ -1,0 +1,16 @@
+{
+  "upload_type": "software",
+  "title": "PIPK-Net: Physiology-Informed Graph Neural Network for Multitask Pharmacokinetic Prediction",
+  "description": "Source code, pre-trained five-fold ensemble weights, curated dataset, and scripts that reproduce all figures and tables for the PIPK-Net manuscript.",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "Pham, Thao"},
+    {"name": "Ghafoor, Mohamed"},
+    {"name": "Delgado-San Martin, Juan"},
+    {"name": "Chiong, Justin"},
+    {"name": "Khoo, Saye"},
+    {"name": "Wang, Dennis"},
+    {"name": "Siccardi, Marco"}
+  ]
+}

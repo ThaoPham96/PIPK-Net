@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this archive."
+title: "PIPK-Net: Physiology-Informed Graph Neural Network for Multitask Pharmacokinetic Prediction"
+version: 1.0.0
+date-released: 2026-06-01
+license: MIT
+repository-code: "https://github.com/ThaoPham96/PIPK-Net"
+authors:
+  - family-names: Pham
+    given-names: Thao
+  - family-names: Ghafoor
+    given-names: Mohamed
+  - family-names: Delgado-San Martin
+    given-names: Juan
+  - family-names: Chiong
+    given-names: Justin
+  - family-names: Khoo
+    given-names: Saye
+  - family-names: Wang
+    given-names: Dennis
+  - family-names: Siccardi
+    given-names: Marco
