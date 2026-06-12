@@ -1,4 +1,5 @@
-
+# PIPK-Net
+The repository provides the PIPK-Net package (model architecture, molecular featurisation, the training engine with nested cross-validation, and a command-line and Python inference interface), the pre-trained five-fold ensemble weights for all three model variants (A_baseline, B_ion, and the physiology-informed C_physio/ PIPK-Net), and a dedicated reproduce module that regenerates every figure and table reported in the manuscript and Supplementary Information from the supplied artefacts. A worked tutorial and a quick-start script are also included.
 
 ---
 
